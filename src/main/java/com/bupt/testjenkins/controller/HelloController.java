@@ -10,6 +10,6 @@ package com.bupt.testjenkins.controller;
 public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
-        return "hello world";
+        return "hello world lzx";
     }
 }
