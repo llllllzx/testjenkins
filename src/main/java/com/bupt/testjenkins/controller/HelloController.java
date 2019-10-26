@@ -1,7 +1,7 @@
 package com.bupt.testjenkins.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+        import org.springframework.web.bind.annotation.RequestMapping;
+        import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Created by zhaoxinliu on 2019/10/26
@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
-        return "hello world netease";
+        return "hello world";
     }
 }
